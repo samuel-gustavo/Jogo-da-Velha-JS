@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TELA-DE-JOGADORES</title>
+</head>
+<body>
+    <main>
+        <div class="tela-de-cadastro-jgrs">
+            <div class="texto">
+                <h2 class="name-configure-jogador">JOGADOR X</h2>
+            </div>
+            <div class="dados-jogador">
+                <form action="" class="formulario-jgrs">
+                    <div class="nome-opcoes-jgrs">
+                        <label for="name1">NOME JOGADOR 1: </label>
+                        <br/>
+                        <input type="text" id="name1" minlength="3" required>
+                        <br/>
+                        <button id="btn-confirm-player1" onclick="clickStateReady1(); return false">PRONTO</button>
+                        <br/>
+                        <button id="btn-cancel-player1" onclick="clickCancel1(); return false">CANCELAR</button>
+                    </div>
+                    <div class="estado-jgrs">
+                        <h2>ESTÁ PRONTO?</h2>
+                        <h2 id="resposta-jgrs-player-1">AGUARDANDO...</h2>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr />
+        <div class="components-center">
+            <h1>VS</h1>
+            <br/>
+            <a href="../tela-jogo/index.html"><button class="btn" id="btn-start">Começar</button></a>
+        </div>
+        <hr />
+        <div class="tela-de-cadastro-jgrs">
+            <div class="texto">
+                <h2 class="name-configure-jogador">JOGADOR O</h2>
+            </div>
+            <div class="dados-jogador">
+                <form action="" class="formulario-jgrs">
+                    <div class="nome-opcoes-jgrs">
+                        <label for="name2">NOME JOGADOR 2: </label>
+                        <br/>
+                        <input type="text" id="name2" minlength="3" required>
+                        <br/>
+                        <button id="btn-confirm-player2" onclick="clickStateReady2();return false">PRONTO</button>
+                        <br/>
+                        <button id="btn-cancel-player2" onclick="clickCancel2(); return false">CANCELAR</button>
+                    </div>
+                    <div class="estado-jgrs">
+                        <h2>ESTÁ PRONTO? </h2>
+                        <h2 id="resposta-jgrs-player-2">AGUARDANDO...</h2>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

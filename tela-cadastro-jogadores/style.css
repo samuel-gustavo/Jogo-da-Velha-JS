@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #312e2e;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.tela-de-cadastro-jgrs {
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    height: 99vh;
+}
+
+.components-center {
+    margin-top: 90px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.components-center .btn {
+    height: 100px;
+    width: 150px;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.name-configure-jogador {
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+
+.tela-de-cadastro-jgrs .texto {
+    height: 80px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+}
+
+.tela-de-cadastro-jgrs .dados-jogador {
+    height: 460px;
+    width: 450px;
+}
+
+.tela-de-cadastro-jgrs .dados-jogador .formulario-jgrs .estado-jgrs{
+    height: 80px;
+    width: 430px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.tela-de-cadastro-jgrs .dados-jogador .formulario-jgrs .nome-opcoes-jgrs{
+    height: 320px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+label, button {
+    height: 30px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+label {
+    color: black;
+}
+
+#btn-start {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-color: black;
+}
+
+input {
+    height: 20px;
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+}
